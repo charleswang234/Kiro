@@ -13,7 +13,7 @@
   0% {color: transparent;}
 }
 
-@keyframes error_before {
+@keyframes error_before_login {
   0%   {height: 1rem; background: rgba(0, 0, 0, 0.156); color: transparent;}
   10%  {height: 9rem; background: #FAFAFA; color: #C62828}
   90%  {height: 9rem; background: #FAFAFA; color: #C62828}
@@ -23,7 +23,7 @@
 
 /* Login Form */
 .login-container {
-  /*margin-top: 4rem;*/
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,7 +85,7 @@
 
 .login.error_1 > header:before,
 .login.error_2 > header:before {
-  animation: error_before 3s cubic-bezier(.55, 0, .1, 1);
+  animation: error_before_login 3s cubic-bezier(.55, 0, .1, 1);
 }
 
 .login.error_1 > header:before {

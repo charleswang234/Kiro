@@ -24,7 +24,6 @@ function authMiddleware(req,res,next) {
       return;
     }
     req.decodedToken = decoded;
-    console.log("User authorized")
     next();
   });
 }

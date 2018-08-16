@@ -21,7 +21,7 @@ class Home extends Component {
           <h1> Welcome to Kiro </h1>
           <h2>It's better than Craigslist.</h2>
           <div id="start-button">
-            <Link to="/rentals/map">
+            <Link to="/rentals/grid">
               <Button
                 variant="raised"
                 size="large"

@@ -13,15 +13,15 @@
   0% {color: transparent;}
 }
 
-@keyframes error_before {
+@keyframes error_before_signup{
   0%   {height: 1rem; background: rgba(0, 0, 0, 0.156); color: transparent;}
-  10%  {height: 9rem; background: #FAFAFA; color: #C62828}
-  90%  {height: 9rem; background: #FAFAFA; color: #C62828}
+  10%  {height: 6rem; background: #FAFAFA; color: #C62828}
+  90%  {height: 6rem; background: #FAFAFA; color: #C62828}
   100% {height: 1rem; background: rgba(0, 0, 0, 0.156); color: transparent;}
 }
 
 
-/* Login Form */
+/* Signup Form */
 .register-container {
   display: flex;
   flex-direction: column;
@@ -31,6 +31,7 @@
   height: auto;
   padding: 5px;
   box-sizing: border-box;
+  margin: 3rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -86,7 +87,7 @@
 .register.error_2 > header:before,
 .register.error_3 > header:before,
 .register.error_4 > header:before {
-  animation: error_before 3s cubic-bezier(.55, 0, .1, 1);
+  animation: error_before_signup 3s cubic-bezier(.55, 0, .1, 1);
 }
 
 .register.error_1 > header:before {
@@ -213,7 +214,8 @@
   width: 130%;
   border: none;
   box-shadow: none;
-  background: transparent;
+  background: #0292cf;
+  color: white;
   background-image: none;
   /*-webkit-appearance: none;*/
 }

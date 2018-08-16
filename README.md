@@ -1,18 +1,20 @@
 # Kiro
 
 ## About
-Lighthouse Labs web development bootcamp final project
+A web app similar to Airbnb that allows landlords and tenants to connect with each other.
 
 ## Features + Screenshots
-![Single Listing](https://raw.githubusercontent.com/buzzjam/final/master/screenshots/single_listing.png)
-![Map](https://raw.githubusercontent.com/buzzjam/final/master/screenshots/map.png)
+![Single Listing](https://raw.githubusercontent.com/buzzjam/final/working/screenshots/single_listing.png)
+
+
+![Map](https://raw.githubusercontent.com/buzzjam/final/working/screenshots/map.png)
 
 ## Usage
 - From root run npm install
 - Run `node server.js` to start the express server
 - From /client run npm install
 - Run `npm start` to start the webpack dev server
-- Navigate to 127.0.0.1:3000 
+- Navigate to 127.0.0.1:3000 or localhost:3000
 
 ## Dependencies
 - axios

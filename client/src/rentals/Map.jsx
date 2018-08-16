@@ -1,4 +1,4 @@
-import React, { isValidElement } from "react";
+import React from "react";
 import { withScriptjs, withGoogleMap, GoogleMap } from "react-google-maps";
 import RentalMarker from "./RentalMarker"
 

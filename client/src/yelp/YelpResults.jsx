@@ -12,6 +12,10 @@ class YelpResults extends Component{
     this.scrollToTop();
   }
 
+  sortByKey(array, key) {
+    return array.sort((a, b) => a[key] - b[key]);
+  }
+
   render(){
     const searchTerm = this.props.searchTerm[0].toUpperCase() + this.props.searchTerm.slice(1);
     const columnStyle = {height: this.props.height};
@@ -21,7 +25,7 @@ class YelpResults extends Component{
         <div className="search-category" ref={(el) => { this.yelpHeader = el; }}>
           <h3>Local {searchTerm}</h3>
         </div>
-        {this.props.results.map(amenity => {
+        {this.sortByKey(this.props.results, "distance").map(amenity => {
           const distance = metresToKm(amenity.distance) + " km away"
           return(
             <a className="yelp-results-link" key={amenity.id} href={amenity.url}>

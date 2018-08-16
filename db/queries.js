@@ -142,7 +142,6 @@ module.exports = (function() {
       .insert({photos: imageUrls,landlords_id: landlordId, price: data.price, lng: data.lng, lat: data.lat})
       .returning('id')
       .then(listing => {
-        console.log(listing)
         return knex("listing_addresses")
         .insert({street: data.street, city: data.city, province: data.province, postal_code: data.postal_code, listings_id: listing[0]})
         .then (() => {

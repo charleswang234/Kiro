@@ -15,7 +15,7 @@ class SingleImage extends Component {
         <div className="photo-info">
           {this.props.index === 0 &&
             <div>Main Picture</div> }
-          <button className="picture-remove" type="submit" onClick={() => this.props.handleDeleteImage(this.props.image)}>Remove</button><br/>
+          <button className="picture-remove" onClick={(e) => this.props.handleDeleteImage(this.props.image, e)}>Remove</button><br/>
         </div>
       </div>
     )
