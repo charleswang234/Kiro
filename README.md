@@ -5,12 +5,13 @@ A web app similar to Airbnb that allows landlords and tenants to connect with ea
 
 ## Features + Screenshots
 
-![Demo](https://github.com/charleswang234/kiro/tree/master/screenshots/kiro_demo.gif)
+![Demo](https://github.com/charleswang234/Kiro/blob/master/screenshots/kiro_demo.gif)
 
-![Single Listing](https://github.com/charleswang234/kiro/tree/master/screenshots/single_listing.png)
+![Map](https://github.com/charleswang234/Kiro/blob/master/screenshots/map.png)
+
+![Single Listing](https://github.com/charleswang234/Kiro/blob/master/screenshots/single_listing.png)
 
 
-![Map](https://github.com/charleswang234/kiro/tree/master/screenshots/map.png)
 
 ## Usage
 - From root run npm install
