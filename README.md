@@ -4,10 +4,13 @@
 A web app similar to Airbnb that allows landlords and tenants to connect with each other.
 
 ## Features + Screenshots
-![Single Listing](https://raw.githubusercontent.com/buzzjam/final/working/screenshots/single_listing.png)
+
+![Demo](https://github.com/charleswang234/kiro/tree/master/screenshots/kiro_demo.gif)
+
+![Single Listing](https://github.com/charleswang234/kiro/tree/master/screenshots/single_listing.png)
 
 
-![Map](https://raw.githubusercontent.com/buzzjam/final/working/screenshots/map.png)
+![Map](https://github.com/charleswang234/kiro/tree/master/screenshots/map.png)
 
 ## Usage
 - From root run npm install
